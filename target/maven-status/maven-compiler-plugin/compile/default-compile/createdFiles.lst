@@ -1,0 +1,5 @@
+com\example\domain\package-info.class
+com\example\controller\MappingController.class
+com\example\domain\PersonInfo.class
+com\example\JaxbApplication.class
+com\example\domain\Person.class

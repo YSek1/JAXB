@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.example.org/person/"
+			xmls:tns="http://www.example.org/person/"
+			elementFormDefault="unqualified">
+
+	<element name="person">
+		<complexType>
+			<sequence>
+				<element ref="tns:personInfo" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="personInfo">
+		<complexType>
+			<sequence>
+				<element ref="tns:name" minOccurs="1" maxOccurs="1"/>
+				<element ref="tns:age" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	</element>
+
+</xsd:schema>

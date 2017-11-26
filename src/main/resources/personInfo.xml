@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:person xmlns="age" xmlns:ns2="name" xmlns:ns3="http://www.example.org/person/" xmlns:ns4="personInfo">
+    <ns4:personInfo>
+        <age>25</age>
+        <ns2:name>seki</ns2:name>
+    </ns4:personInfo>
+</ns3:person>
